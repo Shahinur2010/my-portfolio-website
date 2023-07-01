@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Drawing School",
+        "features": {
+            "a1": "Admin Dashboard",
+            "b2": "Instructor Dashboard",
+            "c3": "Users Dashboard",
+            "d4": "JWT",
+            "e5": "Payment gateway",
+            "f6": "CRUD operations",
+            "g7": "Private route used for ensuring loggedIn user",
+            "h8": "Login and Register form toggled",
+            "i9": "Firebase used for authentication",
+            "j10": "Context API used"
+        },
+        "images": [
+            "https://i.ibb.co/sJpwCdJ/Screenshot-1.png",
+            "https://i.ibb.co/zn8g5gQ/Screenshot-2.png",
+            "https://i.ibb.co/cwwnGmB/Screenshot-3.png",
+            "https://i.ibb.co/k8jx0NC/Screenshot-6.png"
+        ],
+        "link": {
+            "client": "https://github.com/Shahinur2010/drawing-school-client",
+            "server": "https://github.com/Shahinur2010/drawing-school-server",
+            "liveSite": "https://assignment-12-82056.web.app/"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Toys Hub",
+        "features": {
+            "a1": "Gallery section",
+            "b2": "Shop by category section",
+            "c3": "View details button shows detail information of the particular toy",
+            "d4": "All toys section",
+            "e5": "My toys section",
+            "f6": "Add a toy section",
+            "g7": "Private route used for ensuring loggedIn user",
+            "h8": "Login and Register form toggled",
+            "i9": "Firebase used for authentication",
+            "j10": "Context API used"
+        },
+        "images": [
+            "https://i.ibb.co/qxbKrKk/11.png",
+            "https://i.ibb.co/WkCc1T7/12.png",
+            "https://i.ibb.co/Wgk6hL2/15.png",
+            "https://i.ibb.co/qBdbgbN/16.png"
+        ],
+        "link": {
+            "client": "https://github.com/Shahinur2010/toys-hub-client",
+            "server": "https://github.com/Shahinur2010/toys-hub-server",
+            "liveSite": "https://toys-hub-c3fe5.web.app/"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Job Circular",
+        "features": {
+            "a1": "Job Category List",
+            "b2": "Featured Jobs",
+            "c3": "Applied Jobs",
+            "d4": "Statistics analysis showed by recharts",
+            "e5": "JSON file created",
+            "f6": "View Details button shows detail information of the particular job",
+            "g7": "Applied jobs information stored in local storage",
+            "h8": "Answers of the required question added in blog section",
+            "i9": "ErrorPage created",
+            "j10": "README.md file created"
+        },
+        "images": [
+            "https://i.ibb.co/5jCgrNH/21.png",
+            "https://i.ibb.co/VtTm5Qk/22.png",
+            "https://i.ibb.co/zP2PfRj/23.png",
+            "https://i.ibb.co/7bBqsbj/24.png"
+        ],
+        "link": {
+            "client": "https://github.com/Shahinur2010/career-hub",
+            "server": "",
+            "liveSite": "https://charming-melomakarona-3b374c.netlify.app/"
+        }
+    }
+]

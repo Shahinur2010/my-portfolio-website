@@ -1,0 +1,9 @@
+.home {
+    /* Styles for the light theme */
+    background-color:lightyellow;
+  }
+  
+  .home.dark {
+    /* Styles for the dark theme */
+    background-color:darkslategrey;
+  }
