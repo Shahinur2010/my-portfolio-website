@@ -1,4 +1,5 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const About = () => {
@@ -20,6 +21,14 @@ const About = () => {
                 <h2 className='font-semibold text-lg mb-3 flex gap-2'><FaWhatsapp  /> Whatsapp: +8801737304718</h2>
                 <h2 className='font-semibold text-lg mb-3 flex gap-2'><FaRegEnvelope/> Email: shahinurmony4@gmail.com</h2>
                 <h2 className='font-semibold text-lg flex gap-2'><FaMapMarkerAlt/>Dhaka, Bangladesh</h2>
+                <div className="grid grid-flow-col">
+                    <p className="my-2 font-bold text-blue-600">Stay Connected with:</p>
+                    <div  className='font-semibold text-lg my-3 flex gap-2'> 
+                    <Link to="https://www.linkedin.com/in/mst-shahinur-akter-b31590280/"><FaLinkedin className="w-4 h-4"></FaLinkedin></Link>
+                    <Link to="https://github.com/Shahinur2010"><FaGithub className="w-4 h-4"></FaGithub></Link>
+                    <Link to="https://www.facebook.com/profile.php?id=100086002981039"><FaFacebook className="w-4 h-4"></FaFacebook></Link>
+                    </div>
+                </div>
             </div>
         </div>
     </>

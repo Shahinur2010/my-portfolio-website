@@ -7,7 +7,7 @@ const SingleProject = ({ item }) => {
     const { name, features, images, link } = item;
     return (
         <div className="grid grid-cols-1 md:grid-cols-3">
-            <div className="card w-96 bg-slate-200 shadow-xl mx-auto">
+            <div className="card w-96 bg-blue-100 shadow-xl mx-auto">
                 <figure className="px-10 pt-10">
 
                 <Carousel>

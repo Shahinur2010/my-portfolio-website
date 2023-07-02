@@ -8,14 +8,14 @@ const Navbar = () => {
 
     return (
         <div className={`home ${theme}`}>
-            <div className="navbar px-10 py-4 flex flex-col lg:flex-row">
+            <div className="navbar px-10 py-4 flex flex-col lg:flex-row  bg-blue-100">
                 <div>
                     <img className="rounded-full w-16 h-16" src="https://i.ibb.co/wN2X5gt/How-to-make-portfolio-for-design-admission.jpg" alt="" />
                 </div>
                 <div className="flex-1">
                     <a className="btn btn-ghost normal-case text-3xl font-bold">Shahinur</a>
                 </div>
-                <div className="flex flex-col lg:flex-row gap-8 text-lg font-semibold me-12">
+                <div className="flex flex-col lg:flex-row gap-8 font-semibold me-12">
                     <ActiveLink to='/'>Home</ActiveLink>
                     <ActiveLink to='/contact'>Contact</ActiveLink>
                     <ActiveLink to='/projects'>Projects</ActiveLink>

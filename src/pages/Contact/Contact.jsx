@@ -31,7 +31,7 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
                 <div className="hero my-5">
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                        <div className="card-body bg-blue-300 rounded-xl">
+                        <div className="card-body bg-blue-100 rounded-xl">
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text font-bold">Name</span>
