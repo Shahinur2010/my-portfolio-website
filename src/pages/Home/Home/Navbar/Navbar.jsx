@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <div className={`home ${theme}`}>
-            <div className="navbar px-10 py-6 flex flex-col lg:flex-row bg-blue-200">
+            <div className="navbar px-10 py-4 flex flex-col lg:flex-row">
                 <div>
                     <img className="rounded-full w-16 h-16" src="https://i.ibb.co/wN2X5gt/How-to-make-portfolio-for-design-admission.jpg" alt="" />
                 </div>

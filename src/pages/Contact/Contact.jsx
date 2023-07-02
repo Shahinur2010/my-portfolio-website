@@ -17,6 +17,7 @@ const Contact = () => {
             .then(
                 (result) => {
                     console.log(result.text);
+                    form.current.reset();
                 },
                 (error) => {
                     console.log(error.text);
@@ -30,22 +31,22 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
                 <div className="hero my-5">
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                        <div className="card-body">
+                        <div className="card-body bg-blue-300 rounded-xl">
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Name</span>
+                                    <span className="label-text font-bold">Name</span>
                                 </label>
                                 <input type="text" placeholder="name" name="from_name" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Email</span>
+                                    <span className="label-text font-bold">Email</span>
                                 </label>
                                 <input type="text" placeholder="email" name="from_email" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Message</span>
+                                    <span className="label-text font-bold">Message</span>
                                 </label>
                                 <textarea type="text" placeholder="message" name="message" rows="8" className="input input-bordered" />
                             </div>
