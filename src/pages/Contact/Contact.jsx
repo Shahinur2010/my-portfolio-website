@@ -1,6 +1,5 @@
-import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
-
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const form = useRef();
@@ -8,24 +7,54 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_j12cs0k', 'template_9s8skzr', form.current, 'RDI1MWmAhRNUbESOs')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+        emailjs
+            .sendForm(
+                'service_9u4vmx7',
+                'template_57rtkrk',
+                form.current,
+                'DonkZk5-UoFlLy40O'
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
     };
+
     return (
         <div>
             <h2 className="font-bold text-center text-3xl my-10">Contact Information</h2>
             <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="from_name" />
-                <label>Email</label>
-                <input type="email" name="from_email" />
-                <label>Message</label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
+                <div className="hero my-5">
+                    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                        <div className="card-body">
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Name</span>
+                                </label>
+                                <input type="text" placeholder="name" name="from_name" className="input input-bordered" />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Email</span>
+                                </label>
+                                <input type="text" placeholder="email" name="from_email" className="input input-bordered" />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Message</span>
+                                </label>
+                                <textarea type="text" placeholder="message" name="message" rows="8" className="input input-bordered" />
+                            </div>
+                            <div className="form-control mt-6 btn btn-primary">
+                                <input type="submit" value="Send" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
     );
