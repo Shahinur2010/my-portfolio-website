@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 
 const About = () => {
-    return (<>
-        <h2 className='text-center font-bold text-3xl my-4'>About Me</h2>
-        <div className="flex flex-col md:flex-row justify-around">
-            <div className="text-start my-6">
+    return (
+    <div id="about">
+        <h2 className="font-bold mt-20 mb-5 text-center text-3xl">About Me</h2>
+        <div className="flex flex-col md:flex-row justify-around p-10">
+            <div className="text-start mx-4 my-6">
                 <h1 className="my-1"><span className="font-bold text-lg">Education:</span> M.S(Thesis) in Botany from Jahangirnagar University</h1>
                 <h1 className="my-1"><span className="font-bold text-lg">Achievements:</span> Complete the Web Development Course with Jhankar Mahbub (Certificate)</h1>
                 <h1 className="my-1"><span className="font-bold text-lg">Language Proficiency:</span> Bangla (native), Comfortable in English, Familiar to Arabic
@@ -16,8 +17,8 @@ const About = () => {
                     <li>Fluent in Team-work</li>
                 </h1>
             </div>
-            <div className='text-start'>
-                <h2 className='font-semibold text-lg my-3 inline-flex gap-2'><FaPhoneAlt /> Phone: +8801737304718</h2>
+            <div className='text-start mx-auto'>
+                <h2 className='font-semibold text-lg mb-3 mt-5 inline-flex gap-2'><FaPhoneAlt /> Phone: +8801737304718</h2>
                 <h2 className='font-semibold text-lg mb-3 flex gap-2'><FaWhatsapp  /> Whatsapp: +8801737304718</h2>
                 <h2 className='font-semibold text-lg mb-3 flex gap-2'><FaRegEnvelope/> Email: shahinurmony4@gmail.com</h2>
                 <h2 className='font-semibold text-lg flex gap-2'><FaMapMarkerAlt/>Dhaka, Bangladesh</h2>
@@ -31,7 +32,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-    </>
+    </div>
     );
 };
 
