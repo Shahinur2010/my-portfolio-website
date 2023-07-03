@@ -1,8 +1,10 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import useTitle from "../../hooks/useTitle";
 
 
 const About = () => {
+    useTitle('About')
     return (
     <div id="about">
         <h2 className="font-bold mt-20 mb-5 text-center text-3xl">About Me</h2>
