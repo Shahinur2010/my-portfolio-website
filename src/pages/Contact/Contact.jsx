@@ -38,19 +38,19 @@ const Contact = () => {
                                 <label className="label">
                                     <span className="label-text font-bold">Name</span>
                                 </label>
-                                <input type="text" placeholder="name" name="from_name" className="input input-bordered" />
+                                <input type="text" placeholder="name" name="from_name" className="input input-bordered" required/>
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text font-bold">Email</span>
                                 </label>
-                                <input type="text" placeholder="email" name="from_email" className="input input-bordered" />
+                                <input type="text" placeholder="email" name="from_email" className="input input-bordered" required/>
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text font-bold">Message</span>
                                 </label>
-                                <textarea type="text" placeholder="message" name="message" rows="8" className="input input-bordered" />
+                                <textarea type="text" placeholder="message" name="message" rows="8" className="input input-bordered" required/>
                             </div>
                             <div className="form-control mt-6 btn btn-primary">
                                 <input type="submit" value="Send" />
