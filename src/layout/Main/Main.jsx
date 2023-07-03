@@ -4,8 +4,7 @@ import Footer from "../../pages/Home/Home/Footer/Footer";
 import Projects from "../../pages/Projects/Projects";
 import About from "../../pages/About/About";
 import Contact from "../../pages/Contact/Contact";
-import { HashLink as Link } from 'react-router-hash-link';
-import Home from "../../pages/Home/Home/Home";
+// import { HashLink as Link } from 'react-router-hash-link';
 
 const Main = () => {
     return (
@@ -13,10 +12,12 @@ const Main = () => {
             <div>
                 <Navbar></Navbar>
                 <Outlet></Outlet>
-                <Link to="#home" smooth><Home></Home></Link>
-                <Link to="#projects" smooth><Projects></Projects></Link>
+                <Projects></Projects>
+                <About></About>
+                <Contact></Contact>
+                {/* <Link to="#projects" smooth><Projects></Projects></Link>
                 <Link to="#about" smooth><About></About></Link>
-                <Link to="#contact" smooth><Contact></Contact></Link>
+                <Link to="#contact" smooth><Contact></Contact></Link> */}
                 <Footer></Footer>
             </div>
         </>
